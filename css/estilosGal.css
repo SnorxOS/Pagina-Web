@@ -1,0 +1,197 @@
+#navbar {
+    overflow: hidden;
+    background-color: rgb(248, 123, 6) !important ;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    margin-left:-0.45%;
+	border:2px solid #000;
+	z-index:10;
+  }
+  /* Links dentro de la barra de navegacion */
+  #navbar a{
+    float: left ;
+    display: block;
+    color: #000000;
+    text-align: center;
+	margin-left:4%;
+	width:100%;
+    text-decoration: none;
+	padding:10px 50px;
+  }
+  /* Efecto hover adentro de la barra de navegacion */
+  #navbar a:hover {
+    background: #000;
+    color: #fff;
+  }
+/*Foto de inicio*/
+.banner{
+	width: 100%; 
+	height: 25%;
+	text-align: center;
+	overflow: hidden;
+	margin: 0%;
+}
+.bannerGatos{
+	width: 100%;
+	height: 25%;
+	text-align: center;
+	overflow: hidden;
+	position: static;
+	margin: 0%;
+}
+.bannerGat img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+}
+.bannerGatos{
+	background-color: rgba(0, 255, 0, 0);
+	position: absolute;
+	width: 0%;
+	height: 43%;
+	overflow: hidden;
+	transition: 2s;
+
+}
+#artGatos:hover .bannerGatos{
+	width: 41%;
+	left: 20%;
+}
+.textoGatos{
+	color: #FFF;
+	text-align: right;
+	position: absolute;
+	font-size: 60px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family: Arial;
+}
+@media (max-width: 1199.98px){
+	.textoGatos{
+		color: #FFF;
+		text-align: right;
+		position: absolute;
+		font-size: 30px;
+		top: 25%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		font-family: Arial;
+	}
+}
+#artGatos{
+	margin-left: 15%;
+}
+
+.bannerYork img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+}
+.bannerYork{
+	background-color: rgba(0, 255, 0, 0);
+	position: absolute;
+	width: 0%;
+	height: 43%;
+	overflow: hidden;
+	transition: 1s;
+
+}
+#artYork:hover .bannerYork{
+	width: 41%;
+	left: 25%;
+}
+.textoYork{
+	color: #FFF;
+	text-align: right;
+	position: absolute;
+	font-size: 60px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family: Arial;
+}
+#artYork{
+	margin-left: 28%;
+}
+.imgGal1{
+	width:50%;
+}
+.row{
+	display: flex;
+	padding: 5%;
+	flex-wrap: wrap;
+}
+.column{
+	flex: 20%;
+}
+.column img{
+	margin-top: 2%;
+}
+@media (max-width:  600px){
+	.column{
+		flex: 50%;
+	}
+}
+@media (max-width: 600px){
+	.column{
+		flex: 100%;
+	}
+}
+.rowPome{
+	display: flex;
+	padding: 5%;
+	flex-wrap: wrap;
+}
+.columnPome{
+	flex: 20%;
+}
+.columnPome img{
+	margin-top: 2%;
+}
+@media (max-width:  600px){
+	.columnPome{
+		flex: 50%;
+	}
+}
+@media (max-width: 600px){
+	.columnPome{
+		flex: 100%;
+	}
+}
+  .imgGal1{
+	  position: static;
+	  display: flex;
+	  border: 0px solid;
+	  width: 90%;
+	  height: 20%;
+	  margin: auto;
+	  padding: auto;
+  }
+  body{
+	background-image: linear-gradient(rgba(255, 163, 58), rgb(0, 0, 0));
+}
+#btnInsta{
+	margin-top:5%;
+	margin-left:15%;
+	width:25%;
+	height:150px;
+
+}
+#btnFace{
+	margin-top:0%;
+	margin-left:55%;
+	width:25%;
+	height:150px;
+	margin-bottom:5%;
+
+}
+.icoBack{
+	background-image:url(../images/background-pets.jpg)
+}
+.icoBack{
+	margin-top:-15%;
+}
